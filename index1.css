@@ -1,0 +1,909 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.main-container {
+  position: relative;
+  width: 1920px;
+  height: 3698px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden auto;
+}
+.div-flex-row-e {
+  position: relative;
+  width: 101920px;
+  height: 3031px;
+  margin: 0 0 0 -100000px;
+  z-index: 49;
+}
+.div-rectangle {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.div-container {
+  position: absolute;
+  width: 1920px;
+  height: 2847px;
+  top: 0;
+  left: 100000px;
+  z-index: 2;
+  overflow: hidden;
+}
+.div-frame {
+  position: relative;
+  width: 1360px;
+  height: 70px;
+  margin: 20px 0 0 280px;
+  background: #d1e2ff;
+  z-index: 33;
+  overflow: hidden;
+  border-radius: 73px;
+}
+.div-frame-1 {
+  position: absolute;
+  height: 40px;
+  top: 15px;
+  right: 50px;
+  left: 1072px;
+  z-index: 39;
+}
+.div-button-naiti {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 198.131px;
+  z-index: 43;
+  overflow: visible auto;
+}
+.div-background {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 5px 0 0 5px;
+  background: #eff5ff;
+  z-index: 44;
+  overflow: visible auto;
+  border-radius: 15px;
+}
+.div-svg {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 5px 0 0 5px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/hFeAAAnhVj.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 45;
+}
+.div-input {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: -0.13px;
+  left: 0;
+  background: #ffffff;
+  z-index: 40;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px 0 rgba(49, 94, 251, 0.15);
+}
+.div-container-2 {
+  position: relative;
+  width: 168.13px;
+  height: 21px;
+  margin: 9.5px 0 0 15px;
+  z-index: 41;
+  overflow: hidden;
+}
+.span-poisk-po-saitu {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 0;
+  left: 0;
+  color: #315efb;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20.49px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 42;
+}
+.span-gutid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 21px;
+  left: 49px;
+  color: #002b4b;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 34;
+}
+.span-sport {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 24px;
+  left: 205px;
+  color: #002b4b;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 35;
+}
+.history {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 65px;
+  height: 20px;
+  top: 25px;
+  left: 368px;
+  color: #000000;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 36;
+}
+.sections {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 55px;
+  height: 20px;
+  top: 25px;
+  left: 476px;
+  color: #000000;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 38;
+}
+.teams {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 83px;
+  height: 20px;
+  top: 26px;
+  left: 565px;
+  color: #000000;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 37;
+}
+.nav-menu-item {
+  position: relative;
+  width: 1210.72px;
+  height: 40px;
+  margin: 15px 0 0 329px;
+  z-index: 5;
+}
+.menuitem {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 1121.08px;
+  left: -1px;
+  background: #eff5ff;
+  z-index: 6;
+  border-radius: 25px;
+}
+.hockey {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.menuitem-3 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 1012.08px;
+  left: 108px;
+  background: #eff5ff;
+  z-index: 8;
+  border-radius: 25px;
+}
+.football {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 18px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}
+.menuitem-4 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 879.611px;
+  left: 215.859px;
+  background: #eff5ff;
+  z-index: 10;
+  border-radius: 25px;
+}
+.boxing-mma {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;
+}
+.menuitem-5 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 746.301px;
+  left: 347.109px;
+  background: #eff5ff;
+  z-index: 12;
+  border-radius: 25px;
+}
+.autosport {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.menuitem-6 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 638.3px;
+  left: 480.42px;
+  background: #eff5ff;
+  z-index: 14;
+  border-radius: 25px;
+}
+.tennis {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 15;
+}
+.item-menuitem {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 505.82px;
+  left: 588.42px;
+  background: #eff5ff;
+  z-index: 16;
+  border-radius: 25px;
+}
+.basketball {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 17;
+}
+.item-menuitem-7 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 317.84px;
+  left: 720.9px;
+  background: #eff5ff;
+  z-index: 18;
+  border-radius: 25px;
+}
+.figure-skating {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 19;
+}
+.item-menuitem-8 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 154.459px;
+  left: 908.881px;
+  background: #eff5ff;
+  z-index: 20;
+  border-radius: 25px;
+}
+.biathlon-skiing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 21;
+}
+.item-menuitem-9 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 31.08px;
+  left: 1072.26px;
+  background: #eff5ff;
+  z-index: 22;
+  border-radius: 25px;
+}
+.chess {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 23;
+}
+.item-menuitem-a {
+  position: absolute;
+  width: 69.08px;
+  height: 40px;
+  top: 0;
+  left: 1195.641px;
+  background: #eff5ff;
+  z-index: 24;
+  border-radius: 25px;
+}
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 29.456px;
+  height: 21px;
+  top: calc(50% - 11px);
+  left: calc(50% - 14.54px);
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 25;
+}
+.flex-row-b {
+  position: relative;
+  width: 1263px;
+  height: 470px;
+  margin: 35px 0 0 329px;
+  z-index: 57;
+}
+.container {
+  position: absolute;
+  width: 600px;
+  height: 470px;
+  top: 0;
+  left: 0;
+  font-size: 0px;
+  z-index: 26;
+}
+.history-gutid {
+  display: block;
+  position: relative;
+  height: 37px;
+  margin: 0 0 0 0;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 27;
+}
+.flex-row-a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 1263px;
+  height: 351px;
+  margin: 402px 0 0 0;
+  z-index: 32;
+}
+.state-university-design {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 623px;
+  height: 351px;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.32px;
+  text-align: left;
+  z-index: 31;
+}
+.university-achievements {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  width: 623px;
+  height: 351px;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.32px;
+  text-align: left;
+  z-index: 32;
+}
+.science {
+  display: block;
+  position: relative;
+  height: 35px;
+  margin: 100px 0 0 0;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 29;
+}
+.name {
+  display: block;
+  position: relative;
+  height: 35px;
+  margin: 691px 0 0 0;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 28;
+}
+.sport-trends {
+  display: block;
+  position: relative;
+  height: 35px;
+  margin: 691px 0 0 0;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 30;
+}
+.image {
+  position: absolute;
+  width: 1263px;
+  height: 332px;
+  top: 72px;
+  left: 0;
+  background: #000000;
+  filter: blur(0);
+  z-index: 57;
+  border-radius: 20px;
+}
+.gutid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 35px;
+  top: 145px;
+  left: 471px;
+  color: #ffffff;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 60;
+}
+.flex-row-c {
+  position: relative;
+  width: 3902px;
+  height: 2050px;
+  margin: 147px 0 0 -991px;
+  z-index: 59;
+}
+.gradient-blur {
+  position: absolute;
+  width: 1090px;
+  height: 1090px;
+  top: 0;
+  right: 2812px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/yfEGrJJWQK.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(100px);
+  z-index: 3;
+  border-radius: 545px;
+}
+.image-b {
+  position: absolute;
+  width: 1263px;
+  height: 332px;
+  top: 343px;
+  left: 1320px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/rtBMkZxsYM.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(0);
+  z-index: 58;
+  border-radius: 20px;
+}
+.innovation-research {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 620px;
+  height: 189px;
+  top: 710px;
+  left: 1320px;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.32px;
+  text-align: left;
+  z-index: 50;
+}
+.skate-attachment {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 623px;
+  height: 189px;
+  top: 710px;
+  left: 1960px;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.32px;
+  text-align: left;
+  z-index: 51;
+}
+.gradient-blur-c {
+  position: absolute;
+  width: 1090px;
+  height: 1090px;
+  top: 960px;
+  right: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/LCLAMO4ZAb.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(100px);
+  z-index: 4;
+  border-radius: 545px;
+}
+.image-d {
+  position: absolute;
+  width: 1263px;
+  height: 332px;
+  top: 1069px;
+  left: 1320px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/nea8OHLM6C.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(0);
+  z-index: 59;
+  border-radius: 20px;
+}
+.club-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 620px;
+  height: 189px;
+  top: 1436px;
+  left: 1320px;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.32px;
+  text-align: left;
+  z-index: 47;
+}
+.team-designation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 620px;
+  height: 162px;
+  top: 1436px;
+  left: 1962px;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.32px;
+  text-align: left;
+  z-index: 48;
+}
+.group {
+  position: absolute;
+  width: 1041px;
+  height: 416px;
+  top: 2615px;
+  left: 100439px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/RKvJ83aV3S.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 49;
+}
+.footer {
+  position: relative;
+  width: 1920px;
+  height: 63px;
+  margin: 604px 0 0 0;
+  background: #d1e2ff;
+  z-index: 52;
+}
+.portal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 24px;
+  right: 771px;
+  bottom: 18px;
+  left: 769px;
+  color: #7ca2fe;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 53;
+}
+.flex-row {
+  position: absolute;
+  width: 1263px;
+  height: 209px;
+  top: 3140px;
+  left: 328px;
+  z-index: 61;
+}
+.modern-sport {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 619px;
+  height: 54px;
+  top: 0;
+  left: 3px;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.32px;
+  text-align: left;
+  z-index: 54;
+}
+.sport-activities {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 619px;
+  height: 162px;
+  top: 0;
+  left: 644px;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.32px;
+  text-align: left;
+  z-index: 55;
+}
+.popular-sports {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 667px;
+  height: 135px;
+  top: 74px;
+  left: 0;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.32px;
+  text-align: left;
+  z-index: 61;
+}
+.sports-recognition {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 619px;
+  height: 162px;
+  top: 3322px;
+  left: 973px;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 27.32px;
+  text-align: left;
+  z-index: 56;
+}
+
+/* Общая анимация для всех ссылок */
+a span,
+a {
+  transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+a:hover span,
+a:hover:hover {
+  color: #315efb;
+  transform: translateY(-2px);
+  text-shadow: 0 2px 10px rgba(49, 94, 251, 0.3);
+}
+
+
+.div-frame a:hover span:hover {
+  text-decoration: none;
+}

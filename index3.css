@@ -1,0 +1,6615 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.main-container {
+  position: relative;
+  width: 1920px;
+  height: 4506px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  overflow: hidden auto;
+}
+.flex-row-dfc {
+  position: relative;
+  width: 101920px;
+  height: 2914.511px;
+  margin: 0 0 0 -100000px;
+  z-index: 318;
+}
+.rectangle {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.container {
+  position: absolute;
+  width: 1920px;
+  height: 2847px;
+  top: 0;
+  left: 100000px;
+  z-index: 2;
+  overflow: hidden;
+}
+.frame {
+  position: relative;
+  width: 1360px;
+  height: 70px;
+  margin: 20px 0 0 280px;
+  background: #d1e2ff;
+  z-index: 27;
+  overflow: hidden;
+  border-radius: 73px;
+}
+.frame-1 {
+  position: absolute;
+  height: 40px;
+  top: 15px;
+  right: 50px;
+  left: 1072px;
+  z-index: 33;
+}
+.button-find {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin: 0 0 0 198.13px;
+  z-index: 37;
+  overflow: visible auto;
+}
+.background {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  margin: 5px 0 0 5px;
+  background: #eff5ff;
+  z-index: 38;
+  overflow: visible auto;
+  border-radius: 15px;
+}
+.svg {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 5px 0 0 5px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/vSFa9KvoeM.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 39;
+}
+.input {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: -0.13px;
+  left: 0;
+  background: #ffffff;
+  z-index: 34;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px 0 rgba(49, 94, 251, 0.15);
+}
+.container-2 {
+  position: relative;
+  width: 168.13px;
+  height: 21px;
+  margin: 9.5px 0 0 15px;
+  z-index: 35;
+  overflow: hidden;
+}
+.search-site {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21px;
+  top: 0;
+  left: 0;
+  color: #315efb;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20.49px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 36;
+}
+.gutid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 21px;
+  left: 49px;
+  color: #002b4b;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 25px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 28;
+}
+.sport {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 25px;
+  top: 24px;
+  left: 205px;
+  color: #002b4b;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 25px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 29;
+}
+.history {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 65px;
+  height: 20px;
+  top: 25px;
+  left: 368px;
+  color: #000000;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 30;
+}
+.sections {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 55px;
+  height: 20px;
+  top: 25px;
+  left: 476px;
+  color: #000000;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 32;
+}
+.teams {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 81px;
+  height: 20px;
+  top: 26px;
+  left: 566px;
+  color: #000000;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 31;
+}
+.nav-menu-item {
+  position: relative;
+  width: 1210.72px;
+  height: 40px;
+  margin: 15px 0 0 329px;
+  z-index: 5;
+}
+.menu-item {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 1121.08px;
+  left: -1px;
+  background: #eff5ff;
+  z-index: 6;
+  border-radius: 25px;
+}
+.hockey {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.menu-item-3 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 1012.08px;
+  left: 108px;
+  background: #eff5ff;
+  z-index: 8;
+  border-radius: 25px;
+}
+.football {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 18px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 9;
+}
+.menu-item-4 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 879.61px;
+  left: 215.86px;
+  background: #eff5ff;
+  z-index: 10;
+  border-radius: 25px;
+}
+.boxing-mma {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;
+}
+.menu-item-5 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 746.3px;
+  left: 347.11px;
+  background: #eff5ff;
+  z-index: 12;
+  border-radius: 25px;
+}
+.autosport {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.menu-item-6 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 638.3px;
+  left: 480.42px;
+  background: #eff5ff;
+  z-index: 14;
+  border-radius: 25px;
+}
+.tennis {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 15;
+}
+.menu-item-7 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 505.82px;
+  left: 588.42px;
+  background: #eff5ff;
+  z-index: 16;
+  border-radius: 25px;
+}
+.basketball {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 17;
+}
+.menu-item-8 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 317.84px;
+  left: 720.9px;
+  background: #eff5ff;
+  z-index: 18;
+  border-radius: 25px;
+}
+.figure-skating {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 19;
+}
+.menu-item-9 {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 154.46px;
+  left: 908.88px;
+  background: #eff5ff;
+  z-index: 20;
+  border-radius: 25px;
+}
+.biathlon-skiing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 21;
+}
+.menu-item-a {
+  position: absolute;
+  height: 40px;
+  top: 0;
+  right: 31.08px;
+  left: 1072.26px;
+  background: #eff5ff;
+  z-index: 22;
+  border-radius: 25px;
+}
+.chess {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 20px;
+  top: 10px;
+  left: 20px;
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 23;
+}
+.menu-item-b {
+  position: absolute;
+  width: 69.08px;
+  height: 40px;
+  top: 0;
+  left: 1195.64px;
+  background: #eff5ff;
+  z-index: 24;
+  border-radius: 25px;
+}
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 29.456px;
+  height: 21px;
+  top: calc(50% - 11px);
+  left: calc(50% - 14.54px);
+  color: #4a7dfd;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 25;
+}
+.flex-row-c {
+  position: relative;
+  width: 1262.746px;
+  height: 474.26px;
+  margin: 35px 0 0 328px;
+  z-index: 473;
+}
+.teams-c {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 35px;
+  top: 0;
+  left: 0;
+  color: #343b4c;
+  font-family: Manrope, var(--default-font-family);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 35px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 473;
+}
+.container-d {
+  position: absolute;
+  width: 600px;
+  height: 470px;
+  top: 0;
+  left: 1px;
+  z-index: 26;
+}
+.item {
+  position: absolute;
+  height: 43px;
+  top: 71px;
+  right: 999.746px;
+  left: 1px;
+  background: #002b4b;
+  z-index: 458;
+  border-radius: 10px;
+}
+.link {
+  position: relative;
+  width: 262px;
+  height: 28px;
+  margin: 8px 0 0 0;
+  z-index: 459;
+  overflow: hidden;
+}
+.sport-type {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19px;
+  top: 4px;
+  left: 14px;
+  color: #ffffff;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 460;
+}
+.polygon {
+  position: absolute;
+  width: 18px;
+  height: 6px;
+  top: 11px;
+  left: 226px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/sHQgucKSQ5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 461;
+}
+.item-e {
+  position: absolute;
+  height: 43px;
+  top: 71px;
+  right: 717.746px;
+  left: 283px;
+  background: #002b4b;
+  z-index: 462;
+  border-radius: 10px;
+}
+.link-f {
+  position: relative;
+  width: 262px;
+  height: 28px;
+  margin: 8px 0 0 0;
+  z-index: 463;
+  overflow: hidden;
+}
+.team-type {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19px;
+  top: 4px;
+  left: 14px;
+  color: #ffffff;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 464;
+}
+.polygon-10 {
+  position: absolute;
+  width: 18px;
+  height: 6px;
+  top: 11px;
+  left: 226px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/TzhoCyiafk.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 465;
+}
+.input-11 {
+  position: absolute;
+  width: 210px;
+  height: 32px;
+  top: 77px;
+  left: 566px;
+  background: #fcfdff;
+  z-index: 467;
+  overflow: hidden;
+  border-radius: 10px 0 0 10px;
+}
+.container-12 {
+  position: relative;
+  width: 180px;
+  height: 19px;
+  margin: 6px 0 0 15px;
+  z-index: 468;
+  overflow: hidden;
+}
+.keywords {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19px;
+  top: 0;
+  left: 0;
+  color: rgba(47, 117, 175, 0.6);
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 469;
+}
+.button {
+  position: absolute;
+  width: 40px;
+  height: 26px;
+  top: 80px;
+  left: 781px;
+  background: #ffffff;
+  z-index: 470;
+  border-radius: 0 10px 10px 0;
+}
+.search {
+  position: relative;
+  width: 21px;
+  height: 21px;
+  margin: 2.5px 0 0 9.5px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/pXOpZCgVhq.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 472;
+  overflow: hidden;
+}
+.total-teams {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 21.786px;
+  top: 162px;
+  left: 1px;
+  color: #000000;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 18.154624938964844px;
+  font-weight: 600;
+  line-height: 21.786px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 42;
+}
+.cell-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 10.868px;
+  height: 21.786px;
+  top: 213.741px;
+  left: calc(50% - 599.36px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 45;
+}
+.cell-sport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 75.167px;
+  height: 17.247px;
+  top: 215.556px;
+  left: calc(50% - 205.99px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 12.708237648010254px;
+  font-weight: 700;
+  line-height: 16.339px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 51;
+}
+.cell-participants {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 126.499px;
+  height: 17.247px;
+  top: 215.556px;
+  left: calc(50% - -147.15px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 12.708237648010254px;
+  font-weight: 700;
+  line-height: 16.339px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 52;
+}
+.cell-coaches {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 110.887px;
+  height: 17.247px;
+  top: 215.556px;
+  left: calc(50% - -440.87px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 12.708237648010254px;
+  font-weight: 700;
+  line-height: 16.339px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 53;
+}
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 17.247px;
+  top: 215.556px;
+  left: 87.234px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 12.708237648010254px;
+  font-weight: 700;
+  line-height: 16.339px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 47;
+}
+.sort-icon-fill {
+  position: absolute;
+  width: 9.077px;
+  height: 12.708px;
+  top: 50%;
+  right: 1098.01px;
+  transform: translate(0, -151.91%);
+  z-index: 49;
+  overflow: hidden;
+}
+.sort-icon {
+  position: relative;
+  width: 9.077px;
+  height: 12.708px;
+  margin: 0px 0 0 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/WDywT5v0Og.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 50;
+  overflow: hidden;
+}
+.row {
+  position: absolute;
+  top: 256.404px;
+  right: 0;
+  bottom: 145.237px;
+  left: 1px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 55;
+}
+.team-logo {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 78.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/tEYa7gRh3b.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, 89.17%);
+  z-index: 57;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 9.618px;
+  height: 21.786px;
+  top: 281.821px;
+  left: calc(50% - 598.73px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 62;
+}
+.data-volleyball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 282.728px;
+  left: calc(50% - 205.84px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 59;
+}
+.data-13 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 282.728px;
+  left: calc(50% - -206.12px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 60;
+}
+.data-14 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 282.728px;
+  left: calc(50% - -491.98px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 61;
+}
+.md {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 282.728px;
+  left: 131.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 58;
+}
+.row-15 {
+  position: absolute;
+  top: 329.023px;
+  right: 0;
+  bottom: 72.619px;
+  left: 1px;
+  background: #ffffff;
+  z-index: 63;
+}
+.team-logo-16 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/Az93MEV7io.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 65;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-17 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 9.618px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 599.23px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 70;
+}
+.kings {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 66;
+}
+.data-football {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 56.534px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 197.15px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 67;
+}
+.data-18 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 68;
+}
+.data-19 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 69;
+}
+.row-1a {
+  position: absolute;
+  top: 401.641px;
+  right: 0;
+  bottom: 0;
+  left: 1px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 71;
+}
+.team-logo-1b {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 78.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/33PwiO5Pjh.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, 452.8%);
+  z-index: 73;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-1c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 9.618px;
+  height: 21.786px;
+  top: 427.058px;
+  left: calc(50% - 598.73px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 78;
+}
+.data-1d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 427.965px;
+  left: calc(50% - -206.12px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 76;
+}
+.data-1e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 427.965px;
+  left: calc(50% - -491.98px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 77;
+}
+.data-basketball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 427.965px;
+  left: calc(50% - 268.13px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 75;
+}
+.bbc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 427.966px;
+  left: 131.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 74;
+}
+.row-1f {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  background: #ffffff;
+  z-index: 79;
+}
+.logo-team {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/q1ihyb7q3F.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 81;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-20 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 9.618px;
+  height: 21.786px;
+  top: 25.416px;
+  left: calc(50% - 599.23px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 86;
+}
+.data-21 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 84;
+}
+.data-22 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 85;
+}
+.data-basketball-23 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 268.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 83;
+}
+.bdc777 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 82;
+}
+.flex-row-c-24 {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  z-index: 94;
+}
+.row-25 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 87;
+}
+.logo-team-26 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/95G36Py7V3.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 89;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-27 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 9.618px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 599.23px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 94;
+}
+.madness {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 90;
+}
+.data-basketball-28 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 268.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 91;
+}
+.data-29 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 92;
+}
+.data-2a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 93;
+}
+.flex-row-b {
+  position: relative;
+  width: 3902px;
+  height: 2050px;
+  margin: -2.497px 0 0 -991px;
+  z-index: 303;
+}
+.gradient-blur {
+  position: absolute;
+  width: 1090px;
+  height: 1090px;
+  top: 0;
+  right: 2812px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/YUwjq1tED6.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(100px);
+  z-index: 3;
+  border-radius: 545px;
+}
+.row-2b {
+  position: absolute;
+  top: 2.497px;
+  right: 1320.254px;
+  bottom: 1974.885px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 95;
+}
+.logo-team-2c {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/HCHp1nw9Sm.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 97;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-2d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 9.618px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 599.23px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 102;
+}
+.nmft {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 98;
+}
+.data-2e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 100;
+}
+.data-2f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 101;
+}
+.data-sailing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 124.138px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 230.99px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 99;
+}
+.row-30 {
+  position: absolute;
+  top: 75.115px;
+  right: 1320.254px;
+  bottom: 1902.266px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 103;
+}
+.logo-team-31 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/ArUkTd8Kj1.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -2337.36%);
+  z-index: 105;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-32 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 9.618px;
+  height: 21.786px;
+  top: 100.532px;
+  left: calc(50% - 599.36px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 110;
+}
+.data-33 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 101.439px;
+  left: calc(50% - -205.49px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 108;
+}
+.data-34 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 101.439px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 109;
+}
+.data-basketball-35 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 101.439px;
+  left: calc(50% - 268.76px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 107;
+}
+.no-chance {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 101.44px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 106;
+}
+.row-36 {
+  position: absolute;
+  top: 147.734px;
+  right: 1320.254px;
+  bottom: 1829.648px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 111;
+}
+.logo-team-37 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/cHYJri4Cri.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 113;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-38 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 9.618px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 599.23px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 118;
+}
+.prof-com {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 114;
+}
+.data-volleyball-39 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 206.34px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 115;
+}
+.data-3a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 116;
+}
+.data-3b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 117;
+}
+.row-3c {
+  position: absolute;
+  top: 220.352px;
+  right: 1320.254px;
+  bottom: 1740.69px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 119;
+}
+.vk-gutid {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 97.127px;
+  height: 81.696px;
+  top: 223.983px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 122;
+  overflow: hidden;
+}
+.logo-team-3d {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/9knfCjVtzW.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -1953.27%);
+  z-index: 121;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-3e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 9.618px;
+  height: 21.786px;
+  top: 253.938px;
+  left: calc(50% - 599.36px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 126;
+}
+.data-3f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 16.864px;
+  height: 19.97px;
+  top: 254.846px;
+  left: calc(50% - -201.34px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 124;
+}
+.data-volleyball-40 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 254.846px;
+  left: calc(50% - 206.46px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 123;
+}
+.data-41 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 254.846px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 125;
+}
+.row-42 {
+  position: absolute;
+  top: 309.31px;
+  right: 1320.254px;
+  bottom: 1668.072px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 127;
+}
+.logo-team-43 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/Z2qKNYufJq.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 129;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-44 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 134;
+}
+.data-basketball-45 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 268.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 131;
+}
+.hot {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 130;
+}
+.data-46 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 132;
+}
+.data-47 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 133;
+}
+.row-48 {
+  position: absolute;
+  top: 381.929px;
+  right: 1320.254px;
+  bottom: 1595.453px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 135;
+}
+.logo-team-49 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/LmuftBev56.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -1569.18%);
+  z-index: 137;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-4a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 407.345px;
+  left: calc(50% - 604.02px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 142;
+}
+.deaerator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 408.253px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 138;
+}
+.data-volleyball-4b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 408.253px;
+  left: calc(50% - 206.46px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 139;
+}
+.data-4c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 408.253px;
+  left: calc(50% - -205.49px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 140;
+}
+.data-4d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 408.253px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 141;
+}
+.row-4e {
+  position: absolute;
+  top: 454.547px;
+  right: 1320.254px;
+  bottom: 1522.835px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 143;
+}
+.logo-team-4f {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/GROfeth1w9.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 145;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-50 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.416px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 150;
+}
+.data-football-51 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 56.534px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 197.15px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 147;
+}
+.data-52 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 148;
+}
+.data-53 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 149;
+}
+.deputies {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 146;
+}
+.row-54 {
+  position: absolute;
+  top: 527.165px;
+  right: 1320.254px;
+  bottom: 1450.216px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 151;
+}
+.for-magnit {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 85px;
+  height: 41.756px;
+  top: 542.597px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 154;
+  overflow: hidden;
+}
+.logo-team-55 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/Gxqhd2UT0P.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -1205.54%);
+  z-index: 153;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-56 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 552.582px;
+  left: calc(50% - 604.02px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 158;
+}
+.data-volleyball-57 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 553.49px;
+  left: calc(50% - 206.46px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 155;
+}
+.data-58 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 553.49px;
+  left: calc(50% - -205.49px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 156;
+}
+.data-59 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 553.49px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 157;
+}
+.row-5a {
+  position: absolute;
+  top: 599.784px;
+  right: 1320.254px;
+  bottom: 1377.597px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 159;
+}
+.logo-team-5b {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/JRh12DdXYe.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 161;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-5c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 166;
+}
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 162;
+}
+.basketball-3x3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 268.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 163;
+}
+.data-5d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 164;
+}
+.data-5e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 165;
+}
+.row-5f {
+  position: absolute;
+  top: 672.402px;
+  right: 1320.254px;
+  bottom: 1304.979px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 167;
+}
+.game-scissors {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 73.989px;
+  height: 41.756px;
+  top: 687.834px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 170;
+  overflow: hidden;
+}
+.team-logo-60 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/kfHgQAgoab.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -841.91%);
+  z-index: 169;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-61 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 697.819px;
+  left: calc(50% - 604.02px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 174;
+}
+.football-62 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 56.534px;
+  height: 19.97px;
+  top: 698.726px;
+  left: calc(50% - 197.28px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 171;
+}
+.data-63 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 698.726px;
+  left: calc(50% - -205.49px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 172;
+}
+.data-64 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 698.726px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 173;
+}
+.row-65 {
+  position: absolute;
+  top: 745.021px;
+  right: 1320.254px;
+  bottom: 1232.361px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 175;
+}
+.team-logo-66 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/HNoGUQnWB5.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 177;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-67 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 182;
+}
+.basketball-3x3-68 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 268.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 179;
+}
+.disabled {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 178;
+}
+.data-69 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 180;
+}
+.data-6a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 181;
+}
+.row-6b {
+  position: absolute;
+  top: 817.639px;
+  right: 1320.254px;
+  bottom: 1159.742px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 183;
+}
+.team-logo-6c {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/dkbVoQgmgX.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -478.27%);
+  z-index: 185;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-6d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 843.056px;
+  left: calc(50% - 604.02px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 190;
+}
+.disabled-6e {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 843.963px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 186;
+}
+.volleyball {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 843.964px;
+  left: calc(50% - 206.46px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 187;
+}
+.data-6f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 843.964px;
+  left: calc(50% - -205.49px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 188;
+}
+.data-70 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 843.964px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 189;
+}
+.row-71 {
+  position: absolute;
+  top: 890.258px;
+  right: 1320.254px;
+  bottom: 1087.124px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 191;
+}
+.team-logo-72 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/zC3368cJbC.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 193;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-73 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.416px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 198;
+}
+.football-74 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 56.534px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 197.15px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 195;
+}
+.data-75 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 196;
+}
+.data-76 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 197;
+}
+.yeti {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 194;
+}
+.gradient-blur-77 {
+  position: absolute;
+  width: 1090px;
+  height: 1090px;
+  top: 960px;
+  right: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/P3038QZeNX.png)
+    no-repeat center;
+  background-size: cover;
+  filter: blur(100px);
+  z-index: 4;
+  border-radius: 545px;
+}
+.row-78 {
+  position: absolute;
+  top: 962.876px;
+  right: 1320.254px;
+  bottom: 1014.505px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 199;
+}
+.kazakh-flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 86.616px;
+  height: 41.756px;
+  top: 978.308px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 202;
+  overflow: hidden;
+}
+.team-logo-79 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/VWiZEseyDt.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -114.63%);
+  z-index: 201;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-7a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 988.293px;
+  left: calc(50% - 604.02px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 206;
+}
+.volleyball-7b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 989.201px;
+  left: calc(50% - 206.46px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 203;
+}
+.data-7c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 989.201px;
+  left: calc(50% - -205.49px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 204;
+}
+.data-7d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 989.201px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 205;
+}
+.row-7e {
+  position: absolute;
+  top: 1035.495px;
+  right: 1320.254px;
+  bottom: 941.887px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 207;
+}
+.team-logo-7f {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/5BmKocZ7HM.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 209;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-80 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 214;
+}
+.bricks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 210;
+}
+.basketball-3x3-81 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 268.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 211;
+}
+.data-82 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 212;
+}
+.data-83 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 213;
+}
+.row-84 {
+  position: absolute;
+  top: 1108.113px;
+  right: 1320.254px;
+  bottom: 869.268px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 215;
+}
+.potato-chips {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 82.985px;
+  height: 41.756px;
+  top: 1123.545px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 218;
+  overflow: hidden;
+}
+.team-logo-85 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/NRs7ScgEqk.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, 249%);
+  z-index: 217;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-86 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 1133.53px;
+  left: calc(50% - 604.02px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 222;
+}
+.data-87 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 1134.437px;
+  left: calc(50% - -205.49px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 220;
+}
+.data-88 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 1134.437px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 221;
+}
+.basketball-3x3-89 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 1134.438px;
+  left: calc(50% - 268.76px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 219;
+}
+.row-8a {
+  position: absolute;
+  top: 1180.732px;
+  right: 1320.254px;
+  bottom: 796.65px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 223;
+}
+.team-logo-8b {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/ZRpGfafxVw.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 225;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-8c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 230;
+}
+.data-8d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 228;
+}
+.data-8e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 229;
+}
+.basketball-3x3-8f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 26.325px;
+  left: calc(50% - 268.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 227;
+}
+.mamba {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.325px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 226;
+}
+.row-90 {
+  position: absolute;
+  top: 1253.35px;
+  right: 1320.254px;
+  bottom: 724.031px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 231;
+}
+.million-squad {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 107.267px;
+  height: 41.756px;
+  top: 1268.782px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 234;
+  overflow: hidden;
+}
+.team-logo-91 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/91FH4qJdyx.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, 612.64%);
+  z-index: 233;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-92 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 1278.767px;
+  left: calc(50% - 604.02px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 238;
+}
+.basketball-3x3-93 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 1279.675px;
+  left: calc(50% - 268.76px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 235;
+}
+.data-94 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 1279.675px;
+  left: calc(50% - -205.49px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 236;
+}
+.data-95 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 1279.675px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 237;
+}
+.row-96 {
+  position: absolute;
+  top: 1325.969px;
+  right: 1320.254px;
+  bottom: 651.413px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 239;
+}
+.team-logo-97 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/RXfwAJ3j9n.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 241;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-98 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 246;
+}
+.nekrasovs {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 242;
+}
+.basketball-3x3-99 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 268.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 243;
+}
+.data-9a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 244;
+}
+.data-9b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 245;
+}
+.row-9c {
+  position: absolute;
+  top: 1398.587px;
+  right: 1320.254px;
+  bottom: 578.794px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 247;
+}
+.team-logo-9d {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/n1JKWjFvmL.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, 976.28%);
+  z-index: 249;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-9e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 1424.004px;
+  left: calc(50% - 604.02px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 254;
+}
+.football-9f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 56.534px;
+  height: 19.97px;
+  top: 1424.912px;
+  left: calc(50% - 197.28px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 251;
+}
+.data-a0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 1424.912px;
+  left: calc(50% - -205.49px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 252;
+}
+.data-a1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 1424.912px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 253;
+}
+.obshaga {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 1424.912px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 250;
+}
+.row-a2 {
+  position: absolute;
+  top: 1471.206px;
+  right: 1320.254px;
+  bottom: 506.176px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 255;
+}
+.logo-team-a3 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/PQZF0DBOoW.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 257;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-a4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 262;
+}
+.basketball-3x3-a5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 268.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 259;
+}
+.pelmeni {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 258;
+}
+.data-a6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 260;
+}
+.data-a7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 261;
+}
+.row-a8 {
+  position: absolute;
+  top: 1543.824px;
+  right: 1320.254px;
+  bottom: 433.557px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 263;
+}
+.logo-team-a9 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/hi22dHFLTA.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, 1339.91%);
+  z-index: 265;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-aa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 1569.241px;
+  left: calc(50% - 604.02px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 270;
+}
+.pelmeni-ab {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 1570.148px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 266;
+}
+.volleyball-ac {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 1570.149px;
+  left: calc(50% - 206.46px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 267;
+}
+.data-ad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 1570.149px;
+  left: calc(50% - -205.49px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 268;
+}
+.data-ae {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 1570.149px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 269;
+}
+.row-af {
+  position: absolute;
+  top: 1616.443px;
+  right: 1320.254px;
+  bottom: 360.939px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 271;
+}
+.badminton-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 101.902px;
+  height: 61.726px;
+  top: 5.446px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 274;
+  overflow: hidden;
+}
+.logo-team-b0 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/9nU8zhKw4t.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 273;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-b1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.416px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 278;
+}
+.data-b2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 277;
+}
+.badminton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 86.986px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 212.39px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 275;
+}
+.data-b3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 16.864px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -201.47px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 276;
+}
+.row-b4 {
+  position: absolute;
+  top: 1689.062px;
+  right: 1320.254px;
+  bottom: 271.981px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 279;
+}
+.basketball-women-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 96.61px;
+  height: 81.696px;
+  top: 1692.692px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 282;
+  overflow: hidden;
+}
+.logo-team-b5 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/Zx6FEoVAkV.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, 1724%);
+  z-index: 281;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-b6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 1722.647px;
+  left: calc(50% - 604.02px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 286;
+}
+.basketball-b7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 78.822px;
+  height: 19.97px;
+  top: 1723.555px;
+  left: calc(50% - 208.43px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 283;
+}
+.data-b8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 1723.555px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 285;
+}
+.data-b9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 16.864px;
+  height: 19.97px;
+  top: 1723.555px;
+  left: calc(50% - -201.34px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 284;
+}
+.row-ba {
+  position: absolute;
+  top: 1778.019px;
+  right: 1320.254px;
+  bottom: 183.023px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 287;
+}
+.basketball-men-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 96.61px;
+  height: 81.696px;
+  top: 3.631px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 290;
+  overflow: hidden;
+}
+.logo-team-bb {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/ZwFN9d7WD5.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 289;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-bc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 33.586px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 294;
+}
+.basketball-bd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 78.822px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - 208.31px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 291;
+}
+.data-be {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 292;
+}
+.data-bf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 293;
+}
+.row-c0 {
+  position: absolute;
+  top: 1866.977px;
+  right: 1320.254px;
+  bottom: 110.405px;
+  left: 1320px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 295;
+}
+.boxing-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 96.61px;
+  height: 61.726px;
+  top: 1872.423px;
+  left: 1450.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 298;
+  overflow: hidden;
+}
+.logo-team-c1 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 1397.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/0Hj7Ue0nnf.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, 2149%);
+  z-index: 297;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-c2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 1892.393px;
+  left: calc(50% - 604.02px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 302;
+}
+.boxing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 35.008px;
+  height: 19.97px;
+  top: 1893.301px;
+  left: calc(50% - 186.54px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 299;
+}
+.data-c3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 1893.301px;
+  left: calc(50% - -205.49px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 300;
+}
+.data-c4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 1893.301px;
+  left: calc(50% - -491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 301;
+}
+.row-c5 {
+  position: absolute;
+  top: 1939.595px;
+  right: 1320.254px;
+  bottom: 21.447px;
+  left: 1320px;
+  background: #ffffff;
+  z-index: 303;
+}
+.volleyball-women-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 96.61px;
+  height: 81.696px;
+  top: 3.631px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 306;
+  overflow: hidden;
+}
+.logo-team-c6 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/rvghO6NYtW.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 305;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-c7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 33.586px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 310;
+}
+.volleyball-c8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - 206.34px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 307;
+}
+.data-c9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 16.864px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -201.47px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 308;
+}
+.data-ca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 309;
+}
+.row-cb {
+  position: absolute;
+  top: 2825.553px;
+  right: 329.254px;
+  bottom: 0;
+  left: 100329px;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 311;
+}
+.volleyball-men-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 96.61px;
+  height: 81.696px;
+  top: 2829.184px;
+  left: 100459.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 314;
+  overflow: hidden;
+}
+.logo-team-cc {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 100406.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/1yej4eqK5Y.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, 3487.23%);
+  z-index: 313;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-cd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 2859.139px;
+  left: calc(50% - -49395.98px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 318;
+}
+.volleyball-ce {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 2860.047px;
+  left: calc(50% - -49793.54px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 315;
+}
+.data-cf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 16.864px;
+  height: 19.97px;
+  top: 2860.047px;
+  left: calc(50% - -50201.34px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 316;
+}
+.data-d0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 2860.047px;
+  left: calc(50% - -50491.35px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 317;
+}
+.row-d1 {
+  position: relative;
+  width: 1261.746px;
+  height: 88.958px;
+  margin: 0px 0 0 329px;
+  background: #ffffff;
+  z-index: 319;
+}
+.city-sports-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 115.218px;
+  height: 81.696px;
+  top: 3.631px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 322;
+  overflow: hidden;
+}
+.logo-team-d2 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/b8rFuL782N.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 321;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-d3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 33.586px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 326;
+}
+.city-sports {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 147.693px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - 242.75px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 323;
+}
+.data-d4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 324;
+}
+.data-d5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 325;
+}
+.flex-row-a {
+  position: relative;
+  width: 1261.746px;
+  height: 88.958px;
+  margin: 0px 0 0 329px;
+  z-index: 334;
+}
+.row-d6 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 327;
+}
+.track-and-field-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 96.61px;
+  height: 81.696px;
+  top: 3.631px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 330;
+  overflow: hidden;
+}
+.logo-team-d7 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/ofqmc6vpir.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 329;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-d8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 33.586px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 334;
+}
+.track-and-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 127.789px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - 232.81px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 331;
+}
+.data-d9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 16.864px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -201.47px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 332;
+}
+.data-da {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 333;
+}
+.row-db {
+  position: relative;
+  width: 1261.746px;
+  height: 88.958px;
+  margin: 0px 0 0 329px;
+  background: #ffffff;
+  z-index: 335;
+}
+.table-tennis-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 108.655px;
+  height: 81.696px;
+  top: 3.631px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 338;
+  overflow: hidden;
+}
+.logo-team-dc {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/AdDNbPdmwy.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 337;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-dd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 33.586px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 342;
+}
+.table-tennis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 152.944px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - 245.37px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 339;
+}
+.data-de {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 340;
+}
+.data-df {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 341;
+}
+.flex-row-cf {
+  position: relative;
+  width: 1261.746px;
+  height: 108.928px;
+  margin: 0px 0 0 329px;
+  z-index: 350;
+}
+.row-e0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 343;
+}
+.beach-volleyball-team-female {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 96.61px;
+  height: 101.666px;
+  top: 3.631px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 346;
+  overflow: hidden;
+}
+.team-logo-e1 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/7nynC9tP86.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 345;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-e2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 43.571px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 350;
+}
+.volleyball-e3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 44.479px;
+  left: calc(50% - 206.34px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 347;
+}
+.data-e4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 44.479px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 348;
+}
+.data-e5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 44.479px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 349;
+}
+.row-e6 {
+  position: relative;
+  width: 1261.746px;
+  height: 108.928px;
+  margin: 0px 0 0 329px;
+  background: #ffffff;
+  z-index: 351;
+}
+.beach-volleyball-team-male {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 96.61px;
+  height: 101.666px;
+  top: 3.631px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 354;
+  overflow: hidden;
+}
+.team-logo-e7 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/FxG2Xt9toj.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 353;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-e8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 43.571px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 358;
+}
+.volleyball-e9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 44.479px;
+  left: calc(50% - 206.34px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 355;
+}
+.data-ea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 44.479px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 356;
+}
+.data-eb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 44.479px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 357;
+}
+.flex-row-ec {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  z-index: 366;
+}
+.row-ec {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 359;
+}
+.hockey-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 96.61px;
+  height: 61.726px;
+  top: 5.447px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 362;
+  overflow: hidden;
+}
+.team-logo-ed {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/ni7ObheLH0.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 361;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-ee {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 366;
+}
+.hockey-ef {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 56.069px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 196.91px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 363;
+}
+.data-f0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 364;
+}
+.data-f1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 365;
+}
+.row-f2 {
+  position: relative;
+  width: 1261.746px;
+  height: 88.958px;
+  margin: 0px 0 0 329px;
+  background: #ffffff;
+  z-index: 367;
+}
+.artistic-gymnastics-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 138.502px;
+  height: 81.696px;
+  top: 3.631px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 370;
+  overflow: hidden;
+}
+.team-logo-f3 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/t8O4ASqQQh.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 369;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-f4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 33.586px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 374;
+}
+.artistic-gymnastics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 223.739px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - 280.74px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 371;
+}
+.data-f5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 16.864px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -201.47px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 372;
+}
+.data-f6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 34.494px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 373;
+}
+.flex-row-ea {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  z-index: 382;
+}
+.row-f7 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 375;
+}
+.cheerleading-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 96.61px;
+  height: 61.726px;
+  top: 5.447px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 378;
+  overflow: hidden;
+}
+.team-logo-f8 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/exu52voCf1.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 377;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-f9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 382;
+}
+.cheerleading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 77.458px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 207.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 379;
+}
+.data-fa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 380;
+}
+.data-fb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 381;
+}
+.row-fc {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  background: #ffffff;
+  z-index: 383;
+}
+.chess-team {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 96.61px;
+  height: 61.726px;
+  top: 5.446px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 386;
+  overflow: hidden;
+}
+.team-logo-fd {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/psSDC1qXN3.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 385;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-fe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 390;
+}
+.chess-ff {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.549px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 206.18px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 387;
+}
+.data-100 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 388;
+}
+.data-101 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 389;
+}
+.flex-row-be {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  z-index: 398;
+}
+.row-102 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 391;
+}
+.team-logo-103 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/gdAOhgWifC.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 393;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-104 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 398;
+}
+.sigma {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 394;
+}
+.football-105 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 56.534px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 197.15px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 395;
+}
+.data-106 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 396;
+}
+.data-107 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 397;
+}
+.row-108 {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  background: #ffffff;
+  z-index: 399;
+}
+.team-logo-109 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/JRSrYRu5qj.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 401;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-10a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 406;
+}
+.spbguptd {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 402;
+}
+.football-10b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 56.534px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 197.15px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 403;
+}
+.data-10c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 404;
+}
+.data-10d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 405;
+}
+.flex-row-cb {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  z-index: 414;
+}
+.row-10e {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 407;
+}
+.team-logo-10f {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/bNSA7s0nft.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 409;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-110 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 414;
+}
+.volleyball-111 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 206.34px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 411;
+}
+.data-112 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 412;
+}
+.data-113 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 413;
+}
+.sy {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 410;
+}
+.row-114 {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  background: #ffffff;
+  z-index: 415;
+}
+.team-logo-115 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/dDvzOyzetr.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 417;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-116 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 422;
+}
+.data-117 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 420;
+}
+.data-118 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 421;
+}
+.basketball-3x3-119 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 26.325px;
+  left: calc(50% - 268.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 419;
+}
+.taburetka {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.325px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 418;
+}
+.flex-row-f {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  z-index: 430;
+}
+.row-11a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 423;
+}
+.gutidance-dance-studio {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 118.232px;
+  height: 61.726px;
+  top: 5.447px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 426;
+  overflow: hidden;
+}
+.team-logo-11b {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/nbpdAj0v6D.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 425;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-11c {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 430;
+}
+.dance-sport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 161.375px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 249.58px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 427;
+}
+.text-104 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 16.864px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -201.47px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 428;
+}
+.text-105 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 429;
+}
+.section-1f {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  background: #ffffff;
+  z-index: 431;
+}
+.img-1f {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/hFAiDGyKw4.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 433;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.text-106 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 438;
+}
+.text-107 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 434;
+}
+.basketball-3x3-11d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 199.502px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 268.63px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 435;
+}
+.data-11e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 436;
+}
+.data-11f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 437;
+}
+.flex-row-d {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  z-index: 446;
+}
+.row-120 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #e2edff;
+  opacity: 0.8;
+  z-index: 439;
+}
+.team-logo-121 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/XsZLAxKxDs.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 441;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.text-10b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.417px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 446;
+}
+.text-10c {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.325px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 442;
+}
+.text-10d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 74.858px;
+  height: 19.97px;
+  top: 26.325px;
+  left: calc(50% - 206.34px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 443;
+}
+.text-10e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.325px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 444;
+}
+.text-10f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.325px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 445;
+}
+.group-19 {
+  position: relative;
+  width: 1261.746px;
+  height: 72.618px;
+  margin: 0px 0 0 329px;
+  background: #ffffff;
+  z-index: 447;
+}
+.logo-team-122 {
+  position: absolute;
+  width: 39.94px;
+  height: 39.94px;
+  top: 50%;
+  left: 77.157px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-06-04/6ANSJMLoMo.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(0, -50%);
+  z-index: 449;
+  overflow: hidden;
+  border-radius: 19.97px;
+}
+.data-50-123 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 18.955px;
+  height: 21.786px;
+  top: 25.416px;
+  left: calc(50% - 603.9px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 700;
+  line-height: 21.786px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 454;
+}
+.data-velosport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 161.983px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - 249.9px);
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 451;
+}
+.youth {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  height: 19.97px;
+  top: 26.324px;
+  left: 130.713px;
+  color: #223448;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 16.339162826538086px;
+  font-weight: 600;
+  line-height: 19.97px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 450;
+}
+.data-0 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -205.62px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 452;
+}
+.data-0-124 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 8.571px;
+  height: 19.97px;
+  top: 26.324px;
+  left: calc(50% - -491.48px);
+  color: #af354e;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 14.523699760437012px;
+  font-weight: 700;
+  line-height: 19.97px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 453;
+}
+.footer {
+  position: relative;
+  width: 1920px;
+  height: 63px;
+  margin: 156px 0 0 0;
+  background: #d1e2ff;
+  z-index: 455;
+}
+.national-portal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 24px;
+  right: 771px;
+  bottom: 18px;
+  left: 769px;
+  color: #7ca2fe;
+  font-family: Open Sans, var(--default-font-family);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 456;
+}
+
+/* Общая анимация для всех ссылок */
+a span,
+a {
+  transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover span,
+a:hover:hover {
+  color: #315efb;
+  transform: translateY(-2px);
+  text-shadow: 0 2px 10px rgba(49, 94, 251, 0.3);
+}
+
+
+.div-frame a:hover span:hover {
+  text-decoration: none;
+}
